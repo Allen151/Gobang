@@ -72,7 +72,7 @@ for(var i = 0; i < count; i++){
 var chess = document.getElementById('chess');
 var context = chess.getContext('2d');
 
-context.strokeStyle = "#BFBFBF";
+context.strokeStyle = "#000";
 var logo = new Image();
 logo.src = "image/logo.png";
 logo.onload = function(){
